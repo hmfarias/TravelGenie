@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/hmfarias/TravelGenie">
-    <img src="https://github.com/hmfarias/TravelGenie/blob/main/logoSinFondoMD.png" alt="Logo" width="175" height="270">
+    <img src="https://github.com/hmfarias/TravelGenie/blob/main/logoSinFondoMD.png" alt="Logo" width="270" height="270">
   </a>
   <h2 align="center">PROYECTO RF SEGURDIAD INTEGRAL SRL</h2>
 
