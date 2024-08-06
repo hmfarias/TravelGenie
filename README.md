@@ -34,7 +34,7 @@
 
   <ol>
     <li>
-      <a href="#sobre-el-proyecto">Sobre el proyecto</a>
+      <a href="#introduccion">Introducción</a>
       <ul>
         <li><a href="#construido-con">Construido con</a></li>
         <li><a href="#descripción-general">Desripción General</a></li>
