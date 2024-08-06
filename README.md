@@ -49,23 +49,6 @@
         <li><a href="#instalación">Instalación</a></li>
       </ul>
     </li>
-    <li><a href="#documentación-y-uso">Documentación y uso</a>
-      <ul>
-        <li><a href="#el-menu">El menú de la página</a></li>
-        <li><a href="#opción-ADMINISTRACION">La opción ADMINISTRACION - Objeto de la materia JAVASCRIPT dictada por CoderHouse</a>
-           <ul>
-            <li><a href="#Opción-LIQUIDACIÓN-DE-HABERES">Opción LIQUIDACIÓN DE HABERES</a></li>
-            <li><a href="#Opción-CERRAR-SESION">Opción CERRAR SESION</a></li>
-          </ul>
-        </li>
-        <li><a href="#sobre-los-cálculos">Sobre los cálculos</a>
-          <ul>
-            <li><a href="#constantes">Constantes</a></li>
-            <li><a href="#conceptos">Conceptos</a></li>
-          </ul>
-        </li>
-      </ul>    
-    </li>
     <li><a href="#contribuyendo">Contribuyendo</a></li>
     <li><a href="#licencia">Licencia</a></li>
     <li><a href="#contacto">Contacto</a></li>
@@ -75,46 +58,29 @@
 
 ## Introduccion
 
-El proyecto TRAVELGENIE, consiste en una página web institucional, con información relacionada a la empresa de Seguridad Privada RF SEGURIDAD, y con una sección para usuarios registrados, en donde se cuenta con opciones de manejo administrativo. Esta última opción es la que corresponde a lo trabajado en la materia JavaScript de CoderHouse, el resto corresponde a lo trabajado en la materia Desarrollo Web de Coderhouse.
-
-En el estado actual del proyecto, se cuenta con la opción LIQUIDACION DE HABERES, en la cual se ha programado un simulador, que consume dados de la API Random User Gerator API https://randomuser.me, para generar la base de datos de empleados y las diferentes coberturas de servicios efectuadas durante el año 2024 (enero a junio).
-
-La página permite hacer LOGIN para poder usar las opciones de ADMINISTRACION y activa un **TIMEOUT**. Al transcurrir 2 minutos de inactividad, la página mostrará un mensaje indicando esa situación y consediendo 10 segundos antes de cerrar la sesión. Si el usuario realiza alguna acción, esa cuenta regresiva se suspende y no se cierra la sesión.
-
+El proyecto TRAVELGENIE, consiste en un sistema de Inteligencia Artificial diseñado para asistir en la planificación de viajes alrededor del mundo. Utilizando técnicas avanzadas de generación de prompts, TravelGenie crea itinerarios de viaje detallados y personalizados para diversos destinos y actividades, proporcionando recomendaciones útiles y visuales.
 <p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
 
 ### Construido con
-<img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> (HyperText Markup Language) como lenguaje de marcación de hipertéxto estándar utilizado para crear y diseñar páginas web.
 
-<img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> (Cascading Style Sheets, Level 3) como lenguaje de diseño gráfico utilizado para controlar el aspecto visual de las páginas web, separando el contenido (HTML) de la presentación visual (CSS).
+![Static Badge](https://img.shields.io/badge/Python-green?style=for-the-badge) como lenguaje de programación que cuenta con una amplia gama de librerías y frameworks que facilitan la interacción con APIs y el procesamiento de datos. Librerías como openai están bien documentadas y simplifican enormemente la implementación de solicitudes API.
 
-<img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/> como preprocesador de CSS que extiende las capacidades de CSS con características adicionales, como variables, anidamiento, mixins, y funciones. 
-
-<img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> como lenguaje de programación interpretado, de alto nivel y dinámico. Se ejecuta en el navegador del cliente, lo que permite la creación de páginas web interactivas y dinámicas. 
-
-<img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/> como marco de desarrollo front-end que facilita la creación de sitios web y aplicaciones web responsivas y móviles.
-
-![Static Badge](https://img.shields.io/badge/Sweer%20Alert-green?style=for-the-badge) como biblioteca de JavaScript que facilita la creación de alertas y diálogos personalizados y estéticamente agradables en la aplicacion web.
-
-![Static Badge](https://img.shields.io/badge/HTML2pdf-blue?style=for-the-badge) como biblioteca de JavaScript que permite convertir contenido HTML directamente en archivos PDF en el navegador web.
-
+![Static Badge](https://img.shields.io/badge/APIOpenAI-blue?style=for-the-badge) como API proveedora de modelos de inteligencia artificial desarrollado por OpenAI. Cada modelo de OpenAI, puede considerarse como una funcionalidad o capacidad específica. Estos modelos son entrenados para realizar diversas tareas relacionadas con el procesamiento del lenguaje natural. Pueden llevar a cabo funciones como generación de texto, imágenes, traducción de idiomas, respuestas a preguntas, redacción de contenido, etc., todo basado en el contexto proporcionado durante su entrenamiento.
 
 <p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
 
 ### Descripción general
 
-El proyecto RF Seguridad, consiste en una página web institucional, programada con HTML, CSS y BootStrap en lo referente a las opciones de la barra de navegacion NOSOTROS, SERVICIOS Y CONTACTO; y para la opción ADMINISTRACIÓN y LOGIN, se ha agregado programación con JavaScript, dotándolas de interactividad y comportamiento dinámico (objetivo de la materia JavaScript dictada por Coderhouse)
-
+TravelGenie resuelve la problemática de la planificación de viajes al proporcionar itinerarios detallados basados en los destinos y actividades especificados por el usuario. Utiliza modelos de IA para generar tanto texto descriptivo como imágenes que ayudan a visualizar los planes de viaje.
 
 #### Entregable
 
-El proyecto es sitio web interactivo, que utiliza JavaScript y simula distintos procesos administrativos de una empresa de Seguridad Privada, solucionando la tarea de liquidar los haberes del personal conforme a la escala de sueldo vigente para los trabajadores de seguridad privada y en función del mes y las horas de servicios efectivamente cubiertas por cada empleado.
-Se ha utilizado FETCH y JSON para obtener datos de la API Random User Gerator https://randomuser.me y construir la base de datos de empleados; así como diversas herramientas de JavaScript como librerías, promesas y asincronía para controlar eventos en la interfáz y producir animaciones en respuesta.
+El proyecto entrega una aplicación web interactiva donde los usuarios pueden ingresar sus destinos y actividades, y recibir itinerarios de viaje personalizados con imágenes representativas.
 
 Los entregables son:
 
 - Páginas HTML
-- Código fuente en archivos JavaScript.
+- Código fuente en archivos Python.
 - [Readme.md](https://https://github.com/hmfarias/TravelGenie/edit/main/readme.md) con instrucciones de uso.
 
 
@@ -122,8 +88,7 @@ Los entregables son:
 
 #### Uso de Librerías
 
-- **Sweet Alert:** como biblioteca de JavaScript que facilita la creación de alertas y diálogos personalizados y estéticamente agradables en la aplicacion web.
-- **HTML2pdf** como biblioteca de JavaScript que permite convertir contenido HTML directamente en archivos PDF en el navegador web.
+- **openAI:** Para interactuar con las API de GPT-3 y DALL-E.
 
 
 <p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
@@ -138,8 +103,10 @@ Esta guía describe paso a paso cómo utilizar el sitio web de TRAVELGENIE.
 
 Antes de comenzar la instalación, es necesario:
 
-- Contar con un IDE con capacidad para ejecutar el archivo index.html, o bien ejecutar el sitio desde https://hmfarias.github.io/TravelGenie/index.html
-
+- Python 3.8 o superior
+- Cuenta de OpenAI con acceso a las API de GPT-3 y DALL-E
+- Pip (gestor de paquetes de Python)
+- API Key de API openAI
 
 ### Instalación 
 (en caso de que se opte por bajar el proyecto a una ubicación local)
@@ -158,153 +125,20 @@ git init
 git clone https://github.com/hmfarias/TravelGenie.git
 ```
 
+- Crea un entorno virtual:
+```
+  python -m venv env
+  source env/bin/activate  # En Windows usa `env\Scripts\activate`
+```
 
+- Instala las dependencias:
+```
+pip install openai==0.28 (mejorar el request)
+pip install jupyter notebook (instalar tanto jupyter como notebook, para poder crear nuestro servidor local)
+pip install "..." seguido de la dependencia necesaria para nuestro proyecto o modelo.
 
-2. #### Ejecutar la página
-
-   Utilizando un IDE compatible (como VS Code o similar), para poner el la página en línea, bastará con seleccionar y ejecutar desde la raíz del proyecto el archivo index.html
-
-
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
-
-## Documentación y uso
-
-### El menu
-<img alt="NavBar" src="https://github.com/hmfarias/TravelGenie/blob/main/assets/images/navbar.webp"/>
-
-Inicialmente, la página muestra una barra de navegación consitente en las siguiente opciones:
-- **INICIO:** Es la página principal en si misma. En ella se muestra información relacionada a la empresa, artículos sobre seguridad que se irán actualizando diariamente, baner animado con los principales clientes de la empresa y un footer con un botón para solicitar una cotización de servicio, datos de contacto y un mapa enlazado a Google Maps, con la ubiación de la oficina central de la empresa.
-  
-- **NOSOTROS:** Esta opción linkea con la página web donde se muestra un video institucional así como información mas detallada sobre la empresa. Asimismo se describe la MISION, VISIÓN y VALORES de la empresa. Su footer es idéntico al de la página INICIO.
-  
-- **SERVICIOS:** Esta opción del menú, linkea a la página donde se muestran y describen los diferentes tipos de servicios de seguridad que presta la empresa. Cada uno está contenido en una card con un boton para solicitar cotización sobre ese servicio en particular. Su footer es idéntico al de la página INICIO.
-  
-- **CONTACTO:** Esta opción del menú, muestra la página donde se encuentra la información de contacto, dirección y redes socilaes, así como un formulario de contacto para que el cliente rellene y envíe a la empresa.
-
-- **ADMINISTRACIÓN:** (deshabilitada por defecto, ya que requiere ser un usuario registrado para habilitarse). En esta opción se encuentra el simulador solicitado en la materia JAVASCRIPT dictada por Coderhouse.
-
-- **LOGIN:** Al seleccionar esta opción, se despliega una ventana modal donde se pide el usuario y la clave. Al presionar el boton LOGIN que se ubica abajo a la derecha de esta ventama modal, se realiza el logueo al sistema y se habilita la opción de la barra de navegacion ADMINISTRACION, dando acceso a la posibilidad de Liquidar el sueldo de un empleao e imprimir o descargar el recibo.
-  Una vez producido el acceso al sistema, esta opción LOGIN queda deshabilitada hasta que se selecciones CERRAR SESION ubicada en el menú desplegablte ADMINISTRACION.
-  **POR AHORA Y CON FINES DIDÁCTICOS, no existe un proceso de AUTENTICACIÓN formal, e ingresando cualquier usuario y cualquier clave el sistema permite el acceso.**
-  En el futuro, es en este login donde se realizara un proceso de autenticacion contra alguna base de datos de usuarios.
-  
-  **TIMEOUT** transcurridos 2 minutos de inactividad, la página mostrará un mensaje indicando esa situación y consediendo 10 segundos antes de cerrar la sesión. Si el usuario realiza alguna acción, esa cuenta regresiva se suspende y no se cierra la sesión.
-  
-### Opción ADMINISTRACION
-<img alt="NavBar" src="https://github.com/hmfarias/TravelGenie/blob/main/assets/images/administracion-screen-shoot.webp"/>
-  **Uso**
-  
-  REQUIERE ESTAR LOGEADO COMO USUARIO AUTORIZADO - Se trata de un menú dropdown que despliega dos opciones fundamentales: LIQUIDACION DE HABERES y CERRAR SESIÓN.
-
-  #### Opción LIQUIDACIÓN DE HABERES
-<img alt="NavBar" src="https://github.com/hmfarias/TravelGenie/blob/main/assets/images/liquidacion-haberes-screen-shoot.webp"/>  
-
-  1- Al seleccionar LIQUIDACION DE HABERES, se da inicio al simulador que es el objetivo fundamental de la presentación PARA LA MATERIA JAVASCRIPT dictada por Coderhouse.
-  Se despliega una página donde se debe seleccionar el MES y el AÑO sobre el que se desea trabajar.
-  
-  2- Se dispone de dos botones:
-  
-  -**BUSCAR RECIBOS:** el cual requiere que se haya rellenado los campos MES y AÑO del formulario.
-  
-  -**CARGAR ULTIMO LOTE:** trae desde el LOCAL STORAGE, las claves MES y AÑO y las toma como seleccionadas para trabajar con ese período. Esto resulta válido, en el caso de que el sistema se haya utilizado con anterioridad, caso contrario el botón estará deshabilitado.
-  
-  3- Una vez seleccionado el MES y el AÑO, el sistema comienza el proceso de generación de la base de datos de empleados y las diferentes coberturas de servicio (random), que cada empleado a realizado para ese período.
-
-  4- El sistema renderiza en la pantalla, la información de cada empleado. La acomoda en cards, con foto del empleado y el resto de la información completa del mismo.
-
-  <img alt="IMG pantalla liquidación de haberes" src="https://github.com/hmfarias/TravelGenie/blob/main/assets/images/datos-empleados-screen-shoot.webp"/>
-
-  5- Cada card tiene al pie el boton RECIBO, con un listener del evento CLICK configurado para que al presionarlo, se calcule la liquidación de sueldo de ese empleado, en base al período seleccionado y a la cantidad de horas de servicio que ha cubierto.
-
-  6- El resultado del proceso se muestra en una ventana modal, donde se observa:
-  - el logo de la empresa,
-  - el titulo RECIBO DE SUELDO,
-  - el período en cuestión,
-  - los datos del empleado,
-  - los datos sobre la cobertura realizada por ese empleado
-  - la liquidación de cada uno de los conceptos (remunerativos y no remunerativos) que conforman la escala de haberes vigente para los empleados de Seguridad Privada.
-
-<img alt="IMG pantalla liquidación de haberes" src="https://github.com/hmfarias/TravelGenie/blob/main/assets/images/recibo-screen-shoot.webp"/>
-
-  7- Al pié de la ventana modal, se despliegan tres botones:
-  
-  - **IMPRIMIR:** impprime el recibo de sueldo
-  
-  - **DESCARGAR PDF:** descarga el recibo de sueldo del empleado, colocando como nómbre de archivo el AÑO, el MES y el NOMBRE DEL EMPLEAD. Ejemplo: si se se está trabajando con el mes 02 y el año 2024 en la card del empleado Juan López, al presionar el boton DESCARGAR PDF, se descargará el archivo 2024-02-Lopez Juan.pdf
-    
-  - **CERRAR:** cierra la ventana modal.
-
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
-
- #### Opción CERRAR SESION
- Cierra la sesión del usuario logueado. Rehabilita la opcion del menu LOGIN y deshabilita la opción del menú ADMINISTRACIÓN.
- 
-  
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
-
-
-
-### Sobre los cálculos
-#### Constantes
-El sistema utiliza una serie de valores constantes, que se corresponden con los conceptos e importes de la escala de haberes del personal de Seguridad Privada:
-
-**ESCALA DE SUELDOS VIGENTE**
-
-**CONCEPTOS REMUNERATIVOS**
-- SUELDO_BASICO = 356000
-- PRESENTISMO = 112000
-- REMUNERATIVO = 123000
-- VIATICOS = 219000
-  
-**CONCEPTOS NO REMUNERATIVOS**
-- NO_REMUNERATIVO = 30000
-  
-**DESCUENTOS DE LEY - aplican solo sobre conceptos REMUNERATIVOS**
-- PORCE_JUBILACION = 0.11
-- PORCE_LEY19032 = 0.03
-- PORCE_OBRA_SOCIAL = 0.03
-- PORCE_SUVICO = 0.03
-- PORCE_APORTE_SOLIDARIO = 0.02
-  
-**Array de objetos**
-- Array de objetos de EMPLEADOS
-- Array de objetos de COBERTURAS
-
-#### Conceptos
-En base al período seleccionado (AÑO y MES), y a la cantidad de horas efectivamente cubiertas por el empleado, el sistema calcula cada uno de los concpetos.
-
-- **HORAS BASE DEL MES:** 
- En los meses de 30 días las horas base son 208.
-   * En los meses de 31 días las horas base son 216.
-   * En los meses de 28 días las horas base son 192.
-   * En los meses de 29 días las horas base son 200.
-   * Cuando el empleado trabaja las horas base del mes, le corresponde cobrar todos los conceptos integramente.
-   * Cuando el empleado NO trabaja las horas base del mes, le corresponde cobrar un PROPORCIONAL a las horas trabajadas
-   * Cuando el empleado supera las horas base del mes, el excedente se considera HORAS EXTRA
-
-- **DÍAS TRABAJADOS:** En base a las horas de trabajo efectivamente prestadas por el empleado, y teniendo en cuenta las horas base del mes, se calcula su equivalencia en días.
-  EJemplo: para un mes de 31 dias las horas base son 216. Si el empleado ha cubierto 216 horas la equivalencia en dias trabajados es 31. Si el empleado ha cubierto mas de 216 horas, lo que excede de las horas base son horas extra y si el empleado a cubierto menos de 216 se calcula su equivalencia en dias y se calculan sus haberes de manera proporcional.
-
-- **HORAS EXTRAS:** En base a las horas de trabajo efectivamente prestadas por el empleado, y teniendo en cuenta las horas base del mes, se calcula su equivalencia en horas extra.
-  EJemplo: para un mes de 31 dias las horas base son 216. Si el empleado ha cubierto mas de 216 horas, lo que excede de las horas base son horas extra.
-
-- **DEMAS CONCEPTOS DE LA ESCALA:** Si el empleado ha cubierto la totalidad de las horas base del mes, los conceptos se liquidan integramente. Si ha cubierto menos de las horas base, se calculan proporcionalemnte.
-
-- **ANTIGUEDAD:** En base al tiempo transcurrido entre el alta del empleado en la empresa y el período (mes / Año) que se esté procesando, se calcula la antiguedad del empleado. En base a ese tiempo, se calcula el concepto ANTIGUEDAD aplicando un porcentaje sobre el SUELDO BÁSICO + REMUNERATIVO DE ESCALA, siguiendo la siguiente tabla:
-   * Desde el año 1 al  5 corresponde un 2% por año
-   * Desde el año 6 al 10 corresponde un 1.5% por año
-   * Dese el año 11 en adelante corresponde un 1% por año
- 
-- **FERIADOS:** En todos los meses, existen días feriados que se encuentran preestablecidos en el almanque. Si el empleado cubre servicio en alguno de estos días feriados, corresponde liquidarle el concepto FERIADOS.
-
-- **DESCUENTOS DE LEY:** Sobre los conceptos Remunerativos, se aplican los siguientes descuentos de Ley:
-  - JUBILACION 11%
-  - LEY 19032 = 3%
-  - OBRA SOCIAL = 3%
-  - ASOCIACION SINDICAL SUVICO = 3%
-  - APORTE SOLIDARIO = 2%
- 
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
+Una vez instaladas las dependencias, debemos ejecutar nuestro entorno jupyter notebook con el comando jupyter notebook
+```
 
     
 <!-- CONTRIBUTING -->
