@@ -73,11 +73,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## Sobre el Proyecto
-
-[![Product Name Screen Shot][product-screenshot]](https://github.com/hmfarias/TravelGenie)
-
-
+## Introduccion
 
 El proyecto TRAVELGENIE, consiste en una página web institucional, con información relacionada a la empresa de Seguridad Privada RF SEGURIDAD, y con una sección para usuarios registrados, en donde se cuenta con opciones de manejo administrativo. Esta última opción es la que corresponde a lo trabajado en la materia JavaScript de CoderHouse, el resto corresponde a lo trabajado en la materia Desarrollo Web de Coderhouse.
 
@@ -365,3 +361,8 @@ Link del Proyecto: [https://https://github.com/hmfarias/TravelGenie](https://htt
 [product-screenshot]: https://github.com/hmfarias/TravelGenie/blob/main/assets/images/screenShot.webp
 [product-screenshot-navbar]: https://github.com/hmfarias/TravelGenie/blob/main/assets/images/navbar.webp
 [others-url]: https://github.com/hmfarias/TravelGenie
+
+
+
+
+
