@@ -21,7 +21,7 @@
     ·
     <a href="https://github.com/hmfarias/TravelGenie/issues">Reportar un error</a>
     ·
-    <a href="https://github.com/hmfarias/TravelGenie/">Solicitar función</a>
+    <a href="https://github.com/hmfarias/TravelGenie/issues">Solicitar función</a>
   </p>
 
 
