@@ -9,10 +9,10 @@
   <a href="https://github.com/hmfarias/TravelGenie">
     <img src="https://github.com/hmfarias/TravelGenie/blob/main/logoSinFondoMD.png" alt="Logo" width="270" height="270">
   </a>
-  <h2 align="center">PROYECTO RF SEGURDIAD INTEGRAL SRL</h2>
+  <h2 align="center">PROYECTO TRAVELGENIE</h2>
 
   <p align="center">
-    Una página web institucional, con una sección para usuarios resgistrados con opciones administrativas como la liquidación de sueldo e impresión de recibos.
+    Generador de Itinerarios y Visualizaciones de Viaje Potenciado por IA
     <br />
     <a href="https://github.com/hmfarias/TravelGenie"><strong>Explora los documentos »</strong></a>
     <br />
